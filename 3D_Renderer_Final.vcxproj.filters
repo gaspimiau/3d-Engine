@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b739ece7-f30f-4fdf-b530-e1b009164700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dxerr">
+      <UniqueIdentifier>{6db9831a-ffb4-4592-b17b-9068f573f447}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="miWIn.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>dxerr</Filter>
+    </ClInclude>
+    <ClInclude Include="DxgiInfoManager.h">
+      <Filter>dxerr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="3dRenderer.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>dxerr</Filter>
+    </ClCompile>
+    <ClCompile Include="DxgiInfoManager.cpp">
+      <Filter>dxerr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon_32.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Icon.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXTrace.inl">
+      <Filter>dxerr</Filter>
+    </None>
+    <None Include="DXGetErrorDescription.inl">
+      <Filter>dxerr</Filter>
+    </None>
+    <None Include="DXGetErrorString.inl">
+      <Filter>dxerr</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

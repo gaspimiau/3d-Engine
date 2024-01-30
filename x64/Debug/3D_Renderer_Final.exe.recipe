@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Chulu\OneDrive\Escritorio\projectos\3D_Renderer_Final\x64\Debug\3D_Renderer_Final.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\Chulu\OneDrive\Escritorio\projectos\3D_Renderer_Final\PixelShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Chulu\OneDrive\Escritorio\projectos\3D_Renderer_Final\VertexShader.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
